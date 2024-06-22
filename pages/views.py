@@ -13,7 +13,7 @@ def contact(request):
 
         if form.is_valid():
             # send email
-            email_to = "phil.yoder93@gmail.com"
+            email_to = "adamrayschmidt@gmail.com"
             email_from = form.cleaned_data["email"]
             name = form.cleaned_data["name"]
             message = form.cleaned_data["message"]
